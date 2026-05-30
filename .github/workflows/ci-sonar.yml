@@ -30,7 +30,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=nodejs-app
+            -Dsonar.projectKey=sample-node-app-ih
             -Dsonar.sources=.
 
       - name: Upload artifact
